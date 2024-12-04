@@ -7,7 +7,7 @@ El módulo **User Registry** proporciona una serie de funcionalidades para la ge
 ## Instalación
 
 1. Copia la carpeta del módulo en el directorio `/modules/custom/` de tu instalación de Drupal.
-2. Verifique nombre de carpeta del mosulo sea user_registry
+2. Verifique nombre de carpeta del modulo sea user_registry
 3. Habilita el módulo desde la interfaz de administración de Drupal o mediante Drush:
    ```bash
    drush en user_registry
