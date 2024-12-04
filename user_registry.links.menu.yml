@@ -1,0 +1,11 @@
+entity.user_registry.collection:
+  title: 'User registries'
+  description: 'List of user registries.'
+  route_name: entity.user_registry.collection
+  parent: system.admin_content
+
+user_registry.settings:
+  title: Settings
+  parent: system.admin_config_system
+  route_name: user_registry.settings
+  weight: 10

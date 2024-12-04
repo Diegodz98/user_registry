@@ -1,0 +1,10 @@
+entity.user_registry.edit_form:
+  route_name: entity.user_registry.edit_form
+  group: user_registry
+  title: 'Edit'
+
+entity.user_registry.delete_form:
+  route_name: entity.user_registry.delete_form
+  group: user_registry
+  title: 'Delete'
+  weight: 10

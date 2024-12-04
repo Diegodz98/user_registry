@@ -1,0 +1,4 @@
+services:
+  user_registry.storage:
+    class: Drupal\user_registry\UserRegistryStorage
+    arguments: ['@entity_type.manager']

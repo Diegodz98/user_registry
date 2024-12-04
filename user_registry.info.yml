@@ -1,0 +1,5 @@
+name: 'User Registry*'
+type: module
+description: 'Provides functionality for user registry management.'
+package: Custom
+core_version_requirement: ^10 || ^11

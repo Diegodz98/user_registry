@@ -1,0 +1,16 @@
+user_registry.dni:
+  path: '/api/user/{dni}'
+  defaults:
+    _controller: 'Drupal\user_registry\Controller\UserRegistryController::getUserByDni'
+    _title: 'User Data by DNI'
+  requirements:
+    _access: 'TRUE'
+  methods: [GET]
+
+user_registry.settings:
+  path: '/admin/config/user-registry/settings'
+  defaults:
+    _title: 'Settings'
+    _form: 'Drupal\user_registry\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

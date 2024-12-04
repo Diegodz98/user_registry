@@ -1,0 +1,5 @@
+user_registry.add_form:
+  title: 'Add user registry'
+  route_name: entity.user_registry.add_form
+  appears_on:
+    - entity.user_registry.collection

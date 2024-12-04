@@ -1,0 +1,11 @@
+administer user_registry:
+  title: 'Administer user registries'
+  restrict access: true
+view user_registry:
+  title: 'View user registry'
+edit user_registry:
+  title: 'Edit user registry'
+delete user_registry:
+  title: 'Delete user registry'
+create user_registry:
+  title: 'Create user registry'
