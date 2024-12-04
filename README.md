@@ -7,11 +7,12 @@ El módulo **User Registry** proporciona una serie de funcionalidades para la ge
 ## Instalación
 
 1. Copia la carpeta del módulo en el directorio `/modules/custom/` de tu instalación de Drupal.
-2. Habilita el módulo desde la interfaz de administración de Drupal o mediante Drush:
+2. Verifique nombre de carpeta del mosulo sea user_registry
+3. Habilita el módulo desde la interfaz de administración de Drupal o mediante Drush:
    ```bash
    drush en user_registry
-3. Puede empezar con la revisión tomando las rutas solicitadas en la prueba
-4. Para poder reflejar la personalización de los labels se tiene que borrar caché
+4. Puede empezar con la revisión tomando las rutas solicitadas en la prueba https://docs.google.com/document/d/1ZzUSLyVoW9zn2Dk90brK9mtfezJQriji_bEb4UC3_L8/edit?tab=t.0#heading=h.ywr6lwetrvbp
+5. Para poder reflejar la personalización de los labels se tiene que borrar caché
 
 ### Funcionalidades clave:
 
